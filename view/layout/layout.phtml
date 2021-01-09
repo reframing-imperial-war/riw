@@ -38,6 +38,11 @@ $userBar = $this->userBar();
                         <?php echo $escape($siteTitle); ?>
                     <?php endif; ?>
                     </a>
+                    <?php if ($this->themeSetting('subtitle')): ?>
+                        <a href="<?php echo $site->url(); ?>" class="site-subtitle">
+                        <?php echo $escape($this->themeSetting('subtitle')); ?>
+                        </a>
+                    <?php endif; ?>
                 </h1>
                 <div id="search-container">
                     <?php echo $this->partial('common/search-form'); ?>

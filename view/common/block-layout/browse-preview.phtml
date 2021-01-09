@@ -25,6 +25,10 @@ $currentLayout = (!isset($layoutSetting) || strpos($layoutSetting, 'grid') !== f
 
 <ul class="resource-list preview <?php echo $currentLayout; ?>">
 <?php
+#Kludge for Omeka 3.0.1
+if ( !($this->components)):
+    $this->components = ['resource-heading', 'resource-body', 'thumbnail'];
+endif;
 $showThumbnail = in_array('thumbnail', $this->components);
 $showHeading = in_array('resource-heading', $this->components);
 $showBody = in_array('resource-body', $this->components);

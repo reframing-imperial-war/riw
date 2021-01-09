@@ -4,7 +4,9 @@
 
 html {
     font: #{$base-font-size}/#{$base-line-height} "Crimson Text", serif;
-    color: #676767;
+    background-color: $offwhite; 
+    //color: #676767;
+    color: $nearblack;
 }
 
 a {
@@ -119,7 +121,8 @@ select {
     border-radius: 2px;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    color: #676767;
+    //color: #676767;
+    color: $darkgray;
     height: 1.5 * $spacing-l;
     background: #fff url('../../../../application/asset/img/select-arrow.svg') no-repeat;
     background-position: right (.25 * $spacing-l) center;
@@ -289,7 +292,8 @@ nav ul {
 }
 
 .secondary-nav a {
-    color: #676767;
+    //color: #676767;
+    color: $darkgray;
 }
 
 #skipnav {
@@ -356,12 +360,25 @@ header a {
 }
 
 .site-title {
-    font-size: 1.5 * $base-font-size;
+    font-size: 1.75 * $base-font-size;
     text-transform: uppercase;
     letter-spacing: .125em;
     margin: (2 * $spacing-l) 0 0;
     display: block;
-    vertical-align: top;
+    //vertical-align: top; //Deprecated
+    text-align: center;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.site-subtitle {
+    font-size: 1.25 * $base-font-size;
+    text-transform: uppercase;
+    letter-spacing: .125em;
+    display: block;
+    //vertical-align: top; //Deprecated
     text-align: center;
 
     &:hover {
@@ -396,13 +413,15 @@ header a {
     padding: $spacing-s;
     vertical-align: bottom;
     background-color: #fff;
-    color: #676767;
+    //color: #676767;
+    color: $darkgray;
 }
 
 #search-form {
     display: flex;
     padding: $spacing-s $spacing-m $spacing-m;
-    box-shadow: 0 0 0 1px #dedede inset;
+    //box-shadow: 0 0 0 1px #dedede inset;
+    box-shadow: 0 0 0 1px $gray inset;
     background: #fff;
 }
 
@@ -544,7 +563,8 @@ footer {
     }
 
     a {
-        color: #676767;
+        //color: #676767;
+        color: $darkgray;
     }
 
     .sorting a {
@@ -1029,7 +1049,8 @@ footer {
 
 .page #content .sub-menu a {
     font-size: .875 * $base-font-size;
-    color: #676767;
+    //color: #676767;
+    color: $darkgray;
 }
 
 .page #content .sub-menu .current a {

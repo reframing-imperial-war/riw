@@ -1,5 +1,5 @@
 {
-    "name": "omeka-s-themes/centerrow",
+    "name": "reframing-imperial-war/riw",
     "type": "omeka-s-theme",
     "require": {
         "omeka/omeka-s": "*"
