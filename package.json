@@ -1,6 +1,6 @@
 {
   "name": "riw",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A theme for Omeka S, based on Center Row.",
   "main": "gulpfile.js",
   "scripts": {
@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/reframing-imperial-war/riw#readme",
   "devDependencies": {
-    "autoprefixer": "^9.2.1",
+    "autoprefixer": "^10.2.5",
     "gulp": "^4.0.2",
-    "gulp-postcss": "^8.0.0",
+    "gulp-postcss": "^9.0.0",
     "gulp-sass": "^4.0.2",
     "susy": "^2.2.12"
   },
@@ -32,7 +32,8 @@
     "> 1% in US"
   ],
   "dependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "postcss": "^8.2.15"
   },
   "contributors": [
     {
