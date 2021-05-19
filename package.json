@@ -1,6 +1,6 @@
 {
   "name": "riw",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "A theme for Omeka S, based on Center Row.",
   "main": "gulpfile.js",
   "scripts": {
