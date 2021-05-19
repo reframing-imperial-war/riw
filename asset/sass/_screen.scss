@@ -1041,12 +1041,15 @@ footer {
 }
 
 .page #content .sub-menu {
-    padding: 0 gutter() $spacing-l 0;
-    width: span(2 of 16);
+    //padding: 0 gutter() $spacing-l 0;
+    padding: 0 8*gutter() $spacing-l 0;
+    //width: span(2 of 16);
+    width: span(3 of 16);
 }
 
 .page #content .sub-menu ~ *:not(.site-page-pagination) {
-    width: span(14 of 16);
+    //width: span(14 of 16);
+    width: span(13 of 16);
 }
 
 .page #content .sub-menu > ul {
