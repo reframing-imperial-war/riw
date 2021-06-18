@@ -2,6 +2,14 @@
 
 
 
+### [0.4.0] - 2021-06-18 ###
+
+#### Changed ####
+
+- Rebased on centerrow [54dc38](https://github.com/omeka-s-themes/centerrow/tree/54dc380c8e0135eabc9c112a018965df21a312b0).
+
+
+
 ### [0.3.2] - 2021-06-18 ###
 
 #### Added ####
