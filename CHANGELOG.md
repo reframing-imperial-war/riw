@@ -1,4 +1,11 @@
-# Changelog
+# Changelog for Reframing Imperial War theme
+
+### [0.4.1] - 2021-06-28 ###
+
+#### Changed ####
+
+- Added licence information.
+- Rebased on centerrow [172154e](https://github.com/omeka-s-themes/centerrow/commit/172154ec8f8d6baee245870f8c0ed62b49da4cf5).
 
 
 
@@ -6,7 +13,7 @@
 
 #### Changed ####
 
-- Rebased on centerrow [54dc38](https://github.com/omeka-s-themes/centerrow/tree/54dc380c8e0135eabc9c112a018965df21a312b0).
+- Rebased on centerrow [54dc380](https://github.com/omeka-s-themes/centerrow/tree/54dc380c8e0135eabc9c112a018965df21a312b0).
 
 
 

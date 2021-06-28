@@ -1,3 +1,7 @@
+<?php 
+//File modified by Reframing Imperial War, 18 June 2021
+?>
+
 <?php
 $this->headScript()->appendFile($this->assetUrl('js/browse.js'));
 $translate = $this->plugin('translate');
@@ -25,7 +29,7 @@ $currentLayout = (!isset($layoutSetting) || strpos($layoutSetting, 'grid') !== f
 
 <ul class="resource-list preview <?php echo $currentLayout; ?>">
 <?php
-#Kludge for Omeka 3.0.1
+//Compatibility with browse preview in Omeka 3.0.1
 if ( !($this->components)):
     $this->components = ['resource-heading', 'resource-body', 'thumbnail'];
 endif;
